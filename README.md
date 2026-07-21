@@ -1,32 +1,25 @@
-# SignalOS - The AI Attention Control Plane - Static Judge Demo
+# SignalOS — Static Judge Demo
 
-This public repository contains only the compiled static SignalOS demonstration. The complete source code is maintained in the private judging repository `tiybok/signalos` and shared with the required hackathon judge accounts.
+A no-backend, no-key demonstration of **SignalOS — The AI Attention Control Plane**.
 
-## Open the demo
+## Sample scenarios
 
-After GitHub Pages is enabled:
+1. **Release Guard** — scope drift, replay failure, missing verification, and recording risk.
+2. **Presentation Ready** — microphone clipping, low light, off-centre framing, and sustained silence.
+3. **Multi-Agent Recovery** — repeated failure, permission blocking, missing tests, and a stalled worker.
 
-```text
-https://tiybok.github.io/signalos-demo/
+Every example is a deterministic static simulation. The demo does not call a backend, OpenAI, Codex, Ollama, camera, or microphone.
+
+## Run locally
+
+Do not double-click `index.html`. Serve the directory over HTTP:
+
+```bash
+python3 -m http.server 4173 --bind 127.0.0.1
 ```
 
-## What the demo includes
+Open <http://127.0.0.1:4173/>.
 
-- Initial deterministic top-three attention queue.
-- Stored validated GPT-5.6 evidence.
-- Redacted real Codex wrapper evidence.
-- Presentation-readiness data labelled Simulation.
-- Explicit corrective-action confirmation.
-- Corrected ranking and retained resolved history.
+## GitHub Pages
 
-## What the demo does not require
-
-- Backend.
-- API key.
-- Codex installation.
-- Ollama.
-- Camera or microphone permission.
-
-The static demo does not claim live GPT or live sensor activity.
-
-Created by Rutvik Bhalerao. Licensed under Apache-2.0.
+Publish the repository from `main` and `/ (root)` under **Settings → Pages**.
