@@ -18,7 +18,7 @@ Do not double-click `index.html`. Serve the directory over HTTP:
 python3 -m http.server 4173 --bind 127.0.0.1
 ```
 
-Open <http://127.0.0.1:4173/>. <https://tiybok.github.io/signalos-demo/>
+Open <http://127.0.0.1:4173/>. <https://tiybok.github.io/signalos-demo/> ,<https://github.com/tiybok/signalos> requeest for code access 
 
 ## GitHub Pages
 
