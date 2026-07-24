@@ -33,6 +33,9 @@ https://github.com/tiybok/signalos
 **Connect on LinkedIn:**
 https://www.linkedin.com/in/rutvik-bhalerao/
 
+**Youtube:**
+https://youtu.be/LvkndgQI1Fw?si=oiwZQEpLeCzfup9L
+
 ## GitHub Pages
 
 Publish the repository from the `main` branch and `/ (root)` under **Settings → Pages**.
