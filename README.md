@@ -28,7 +28,7 @@ http://127.0.0.1:4173/
 https://tiybok.github.io/signalos-demo/
 
 **Request Full Code Access:**
-https://www.linkedin.com/in/rutvik-bhalerao/
+https://github.com/tiybok/signalos
 
 **Connect on LinkedIn:**
 https://www.linkedin.com/in/rutvik-bhalerao/
